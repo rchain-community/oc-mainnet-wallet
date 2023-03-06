@@ -67,9 +67,9 @@ export const mainNet = {
   readOnlys: [
     // Load balancer (not gRPC) server for us, asia and eu servers
     { domain: 'observer.services.mainnet.rchain.coop', https: 443 },
-    { domain: 'observer-us.services.mainnet.rchain.coop', ...defaultPortsSSL },
-    { domain: 'observer-asia.services.mainnet.rchain.coop', ...defaultPortsSSL },
-    { domain: 'observer-eu.services.mainnet.rchain.coop', ...defaultPortsSSL },
+    // { domain: 'observer-us.services.mainnet.rchain.coop', ...defaultPortsSSL },
+    // { domain: 'observer-asia.services.mainnet.rchain.coop', ...defaultPortsSSL },
+    // { domain: 'observer-eu.services.mainnet.rchain.coop', ...defaultPortsSSL },
   ],
 }
 
