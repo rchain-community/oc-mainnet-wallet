@@ -43,3 +43,4 @@ export const ethereumSign = async (bytes, ethAddr) => {
   // Returns signature in hex format
   return await ethRequest('personal_sign', args)
 }
+
